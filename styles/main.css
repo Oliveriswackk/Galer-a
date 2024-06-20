@@ -1,0 +1,119 @@
+.Conjunto-Imagenes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Imagen{
+    width:  350px;
+    border-radius: 20px;
+    margin: 50px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Sombra con desplazamiento de 10px, difuminado de 20px y color negro semitransparente */
+    transition: box-shadow 0.3s ease-in-out; /* Transición suave para la sombra */
+}
+
+.ig{
+    position: absolute;
+    top: 3px;   /* Distancia desde la parte superior */
+    right: 150px; /* Distancia desde la parte derecha */
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: auto;/* Mantiene la proporción de la imagen */
+}
+
+.x{
+    position: absolute;
+    top: 25px;   
+    right: 85px; 
+    width: 50px; 
+    height: auto;
+}
+
+.ty{
+    position: absolute;
+    top: 20px;  
+    right: 15px; 
+    width: 50px; 
+    height: auto;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 17px;
+    margin: 0;
+    color: aliceblue;
+}
+
+.Texto-Inferior{
+    margin: 30px;
+    float: left;
+    width: 60%;
+}
+
+.photoshop{
+    position: absolute;
+    height: auto;
+    float: right;
+    top: 1330px;
+    right: 150px;
+    width: 20%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    margin: 30px;
+}
+
+.Contenedor-Creador{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 300px;
+}
+
+.presentacion{
+flex-direction: center;
+align-items: center;
+text-align: center;
+margin-top: 250px;
+}
+
+.Oliver{
+    display: flex;
+    width: 150px;
+    align-items: flex-end;
+    padding: 15px;
+    border-radius: 25px;                
+}
+
+.text-gay{
+    display: flex;
+    margin: 30px;
+    padding-top: 40px;
+    float: right;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor-creador{
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(65, 65, 65);
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    float: center;
+}
+
+.Texto-Inferior p{
+    padding: 10px;
+}
